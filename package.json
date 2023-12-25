@@ -1,6 +1,6 @@
 {
     "name": "FOFun",
-    "longName": "Web Extension to extract ips from FOFA research page",
+    "longName": "FOFun - IP extractor",
     "description": "Web Extension to extract ips from FOFA for research page",
     "version": "1.0.0",
     "main": "index.js",

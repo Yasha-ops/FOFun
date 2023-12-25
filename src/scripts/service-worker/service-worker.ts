@@ -1,7 +1,5 @@
 console.log('Background Service Worker Loaded')
 
-chrome.action.setBadgeText({ text: 'ON' })
-
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     const { command, data } = message
     console.log(message)
